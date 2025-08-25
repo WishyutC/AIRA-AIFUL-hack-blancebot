@@ -1,0 +1,23 @@
+# =========================
+# TTS and STT Requirements
+# =========================
+
+# Coqui TTS (Real-time Text-to-Speech)
+TTS
+
+# Whisper (Speech-to-Text) - official OpenAI version
+openai-whisper
+
+# Faster Whisper (recommended for better performance)
+faster-whisper
+
+# Microphone audio capture and processing
+sounddevice
+numpy
+
+# Audio playback tools
+ffmpeg-python
+pyaudio
+
+# Optional CUDA support for faster-whisper (if you have NVIDIA GPU)
+# faster-whisper[cuda]
